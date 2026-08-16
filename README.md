@@ -1,12 +1,12 @@
-# Deep Learning Face Recognition System
+# Face Recognition System
 
-A real-time face recognition system developed using Python and deep learning.
+A real-time face recognition project built using Python and deep learning.
 
-## Project Overview
+## About
 
-This project uses a webcam to detect and recognize faces in real time. FaceNet is used to generate face embeddings, while MTCNN is used for face detection. Cosine similarity is used to compare the live face with stored face embeddings.
+This project uses a webcam to detect and recognize faces. MTCNN is used for face detection, FaceNet generates face embeddings, and cosine similarity is used to match faces.
 
-## Technologies Used
+## Technologies
 
 - Python 3.11
 - OpenCV
@@ -15,43 +15,10 @@ This project uses a webcam to detect and recognize faces in real time. FaceNet i
 - MTCNN
 - NumPy
 - Scikit-learn
-- Cosine Similarity
 
-## Features
+## How to Run
 
-- Real-time face detection
-- Face registration using webcam
-- Face image collection
-- FaceNet-based feature extraction
-- Face embedding generation
-- Real-time face recognition
-- Unknown face detection
-- Similarity score display
+### 1. Register a face
 
-## System Workflow
-
-Webcam  
-↓  
-MTCNN Face Detection  
-↓  
-FaceNet Feature Extraction  
-↓  
-Face Embedding  
-↓  
-Cosine Similarity  
-↓  
-Recognized Name / Unknown
-
-## Project Structure
-
-```text
-FaceRecognition/
-│
-├── camera_test.py
-├── encode_faces.py
-├── face_detect.py
-├── recognize.py
-├── register.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+```bash
+python register.py
