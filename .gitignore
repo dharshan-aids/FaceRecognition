@@ -1,0 +1,16 @@
+﻿# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Personal face dataset
+dataset/*
+!dataset/.gitkeep
+
+# Face embeddings
+embeddings.pkl
+
+# VS Code
+.vscode/
